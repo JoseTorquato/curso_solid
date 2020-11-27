@@ -1,5 +1,5 @@
 from github.client import GithubClient
-from repo.paser import RepoParser
+from repo.parser import RepoParser
 
 if __name__ == '__main__':
     username = 'JoseTorquato'

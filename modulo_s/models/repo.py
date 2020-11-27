@@ -5,9 +5,9 @@ aqui vamos receber o que queremos da repo
 class Repo():
 
     def __init__(self, id, name, stars):
-        self._id - id
-        self._name - name
-        self._stars - stars
+        self._id = id
+        self._name = name
+        self._stars = stars
 
     @property
     def id(self):
